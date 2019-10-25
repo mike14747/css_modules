@@ -1,0 +1,27 @@
+.bigger {
+    font-size: 120%;
+}
+
+.ls-1 {
+    letter-spacing: 1px;
+}
+
+.ls-2 {
+    letter-spacing: 2px;
+}
+
+.lh-115 {
+    line-height: 1.15;
+}
+
+.min-w-50 {
+    min-width: 50%;
+}
+
+.clear-left {
+    clear: left;
+}
+
+.clear-right {
+    clear: right;
+}
