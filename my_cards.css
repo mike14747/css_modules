@@ -1,0 +1,44 @@
+.my-card {
+    min-width: 0;
+    max-width: 500px;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.my-card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.my-card-body {
+    padding: 1.25rem;
+}
+
+.my-card-title {
+    margin-bottom: 0.75rem;
+}
+
+.my-card-text {
+    margin-bottom: 0;
+}
+
+.my-card-footer {
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+}
+
+/* this is a basic card layout */
+/* it's layed out this way: */
+/* my-card is the whole box */
+/* my-card-header, my-card-body and my-card-footer are the main sub-sections of the card */
+/* my-card-body is the container for my-card-title and my-card-text */
+/* change any properties/colors as needed */
+/* if there is no footer and my-card-body is the final section of the card, it'll need to have a border-radius property applied to it like my-card-footer */
