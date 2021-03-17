@@ -1,0 +1,462 @@
+/* highway colors */
+
+.my-highway-brown {
+    color: #ffffff;
+    background-color: #633517;
+}
+
+.my-highway-red {
+    color: #ffffff;
+    background-color: #a6001a;
+}
+
+.my-highway-orange {
+    color: #ffffff;
+    background-color: #e06000;
+}
+
+.my-highway-schoolbus {
+    color: #ffffff;
+    background-color: #ee9600;
+}
+
+.my-highway-yellow {
+    color: #ffffff;
+    background-color: #ffab00;
+}
+
+.my-highway-green {
+    color: #ffffff;
+    background-color: #004d33;
+}
+
+.my-highway-blue {
+    color: #ffffff;
+    background-color: #00477e;
+}
+
+/* end highway colors */
+
+/* safety colors */
+
+.my-safety-red {
+    color: #ffffff;
+    background-color: #bd1e24;
+}
+
+.my-safety-orange {
+    color: #ffffff;
+    background-color: #e97600;
+}
+
+.my-safety-yellow {
+    color: #ffffff;
+    background-color: #f6c700;
+}
+
+.my-safety-green {
+    color: #ffffff;
+    background-color: #007256;
+}
+
+.my-safety-blue {
+    color: #ffffff;
+    background-color: #0067a7;
+}
+
+.my-safety-purple {
+    color: #ffffff;
+    background-color: #964f8e;
+}
+
+/* end safety colors */
+
+/* European signal colors */
+
+.my-signal-yellow {
+    color: #ffffff;
+    background-color: #f7ba0b;
+}
+
+.my-signal-orange {
+    color: #ffffff;
+    background-color: #d4652f;
+}
+
+.my-signal-red {
+    color: #ffffff;
+    background-color: #a02128;
+}
+
+.my-signal-violet {
+    color: #ffffff;
+    background-color: #904684;
+}
+
+.my-signal-blue {
+    color: #ffffff;
+    background-color: #154889;
+}
+
+.my-signal-green {
+    color: #ffffff;
+    background-color: #317f43;
+}
+
+.my-signal-grey {
+    color: #ffffff;
+    background-color: #9b9b9b;
+}
+
+.my-signal-brown {
+    color: #ffffff;
+    background-color: #7b5141;
+}
+
+.my-signal-white {
+    color: #000;
+    background-color: #f4f4f4;
+}
+
+.my-signal-black {
+    color: #ffffff;
+    background-color: #282828;
+}
+
+/* end European signal colors */
+
+/* vivid colors */
+
+.my-vivid-pink {
+    color: #ffffff;
+    background-color: #ffb5ba;
+}
+.my-vivid-red {
+    color: #ffffff;
+    background-color: #be0032;
+}
+.my-vivid-orange {
+    color: #ffffff;
+    background-color: #f38400;
+}
+.my-vivid-yellow {
+    color: #ffffff;
+    background-color: #f3c300;
+}
+.my-vivid-green {
+    color: #ffffff;
+    background-color: #008856;
+}
+.my-vivid-blue {
+    color: #ffffff;
+    background-color: #00a1c2;
+}
+.my-vivid-black {
+    color: #ffffff;
+    background-color: #000;
+}
+.my-vivid-white {
+    color: #000;
+    background-color: #ffffff;
+}
+
+.my-vivid-purple {
+    color: #ffffff;
+    background-color: #9a4eae;
+}
+.my-vivid-purple {
+    color: #ffffff;
+    background-color: #9a4eae;
+}
+.my-vivid-yellowish-pink {
+    color: #ffffff;
+    background-color: #ffb7a5;
+}
+.my-vivid-reddish-orange {
+    color: #ffffff;
+    background-color: #e25822;
+}
+.my-vivid-orange-yellow {
+    color: #ffffff;
+    background-color: #f6a600;
+}
+.my-vivid-greenish-yellow {
+    color: #ffffff;
+    background-color: #dcd300;
+}
+.my-vivid-yellow-green {
+    color: #ffffff;
+    background-color: #8db600;
+}
+.my-vivid-yellowish-green {
+    color: #ffffff;
+    background-color: #27a64c;
+}
+.my-vivid-bluish-green {
+    color: #ffffff;
+    background-color: #008882;
+}
+.my-vivid-greenish-blue {
+    color: #ffffff;
+    background-color: #0085a1;
+}
+.my-vivid-purplish-blue {
+    color: #ffffff;
+    background-color: #30267a;
+}
+.my-vivid-reddish-purple {
+    color: #ffffff;
+    background-color: #870074;
+}
+.my-vivid-purplish-red {
+    color: #ffffff;
+    background-color: #ce4676;
+}
+
+/* end vivid colors */
+
+/* food colors */
+
+.my-food-apple {
+    color: #000;
+    background-color: #76cd26;
+}
+.my-food-aspargus {
+    color: #ffffff;
+    background-color: #77ab56;
+}
+.my-food-apricot {
+    color: #ffffff;
+    background-color: #ffb16d;
+}
+.my-food-aubergine {
+    color: #ffffff;
+    background-color: #3d0734;
+}
+.my-food-avocado {
+    color: #ffffff;
+    background-color: #87a922;
+}
+.my-food-banana {
+    color: #000;
+    background-color: #fafe4b;
+}
+.my-food-butter {
+    color: #000;
+    background-color: #ffff81;
+}
+.my-food-blueberry {
+    color: #ffffff;
+    background-color: #464196;
+}
+.my-food-carrot {
+    color: #ffffff;
+    background-color: #e67e22;
+}
+.my-food-cherry {
+    color: #ffffff;
+    background-color: #cf0234;
+}
+.my-food-chocolate {
+    color: #ffffff;
+    background-color: #411900;
+}
+.my-food-cranberry {
+    color: #ffffff;
+    background-color: #9e003a;
+}
+.my-food-coffee {
+    color: #ffffff;
+    background-color: #a6814c;
+}
+.my-food-egg {
+    color: #000;
+    background-color: #fffcc4;
+}
+.my-food-grape {
+    color: #ffffff;
+    background-color: #6c3461;
+}
+.my-food-kiwi {
+    color: #000;
+    background-color: #8ee53f;
+}
+.my-food-lemon {
+    color: #000;
+    background-color: #fdff52;
+}
+.my-food-lime {
+    color: #000;
+    background-color: #bffe28;
+}
+.my-food-mango {
+    color: #ffffff;
+    background-color: #ffa62b;
+}
+.my-food-mushroom {
+    color: #ffffff;
+    background-color: #ba9e88;
+}
+.my-food-mustard {
+    color: #ffffff;
+    background-color: #ceb301;
+}
+.my-food-mint {
+    color: #000;
+    background-color: #c0fa8b;
+}
+.my-food-olive {
+    color: #ffffff;
+    background-color: #6e750e;
+}
+.my-food-orange {
+    color: #ffffff;
+    background-color: #f97306;
+}
+.my-food-pea {
+    color: #ffffff;
+    background-color: #a4bf20;
+}
+.my-food-peach {
+    color: #ffffff;
+    background-color: #ffb07c;
+}
+.my-food-pear {
+    color: #000;
+    background-color: #cbf85f;
+}
+.my-food-pistachio {
+    color: #000;
+    background-color: #c0fa8b;
+}
+.my-food-plum {
+    color: #ffffff;
+    background-color: #3f012c;
+}
+.my-food-pomegranate {
+    color: #ffffff;
+    background-color: #c0392b;
+}
+.my-food-pumpkin {
+    color: #ffffff;
+    background-color: #d35400;
+}
+.my-food-raspberry {
+    color: #ffffff;
+    background-color: #b00149;
+}
+.my-food-saffron {
+    color: #ffffff;
+    background-color: #feb209;
+}
+.my-food-salmon {
+    color: #ffffff;
+    background-color: #ff796c;
+}
+.my-food-spearmint {
+    color: #000;
+    background-color: #1ef876;
+}
+.my-food-squash {
+    color: #ffffff;
+    background-color: #f2ab15;
+}
+.my-food-strawberry {
+    color: #ffffff;
+    background-color: #fb2943;
+}
+.my-food-tomato {
+    color: #ffffff;
+    background-color: #ec2d01;
+}
+.my-food-wheat {
+    color: #000;
+    background-color: #fbdd7e;
+}
+.my-food-wine {
+    color: #ffffff;
+    background-color: #80013f;
+}
+
+/* end food colors */
+
+/* camouflage colors */
+
+.my-camo-brown {
+    color: #ffffff;
+    background-color: #594d45;
+}
+
+.my-camo-red {
+    color: #ffffff;
+    background-color: #79533d;
+}
+
+.my-camo-olive {
+    color: #ffffff;
+    background-color: #595142;
+}
+
+.my-camo-field {
+    color: #ffffff;
+    background-color: #745d46;
+}
+
+.my-camo-earth {
+    color: #ffffff;
+    background-color: #ac7e54;
+}
+
+.my-camo-sand {
+    color: #ffffff;
+    background-color: #a9947b;
+}
+
+.my-camo-tan {
+    color: #ffffff;
+    background-color: #b49d80;
+}
+
+.my-camo-sandstone {
+    color: #ffffff;
+    background-color: #bcab90;
+}
+
+.my-camo-dark-green {
+    color: #ffffff;
+    background-color: #535640;
+}
+
+.my-camo-forest {
+    color: #ffffff;
+    background-color: #54504b;
+}
+
+.my-camo-light-green {
+    color: #ffffff;
+    background-color: #63613e;
+}
+
+.my-camo-green {
+    color: #ffffff;
+    background-color: #4a5444;
+}
+
+.my-camo-dark-gray,
+.my-camo-dark-grey {
+    color: #ffffff;
+    background-color: #5c5c5b;
+}
+
+.my-camo-gray,
+.my-camo-grey {
+    color: #ffffff;
+    background-color: #9495a5;
+}
+
+.my-camo-black {
+    color: #ffffff;
+    background-color: #373538;
+}
+
+/* end camouflage colors */

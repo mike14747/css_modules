@@ -1,0 +1,238 @@
+/* mainly Bootstrap 4's text style, but I've added 6 grayscale shades, plus sizing and letter spacing styles */
+
+.text-monospace {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-wrap {
+    white-space: normal;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.font-weight-light {
+    font-weight: 300;
+}
+
+.font-weight-lighter {
+    font-weight: lighter;
+}
+
+.font-weight-normal {
+    font-weight: 400;
+}
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+.font-weight-bolder {
+    font-weight: bolder;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-primary {
+    color: #007bff;
+}
+
+.text-secondary {
+    color: #6c757d;
+}
+
+.text-success {
+    color: #28a745;
+}
+
+.text-info {
+    color: #17a2b8;
+}
+.text-warning {
+    color: #ffc107;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+.text-light {
+    color: #f8f9fa;
+}
+
+.text-dark {
+    color: #343a40;
+}
+
+.text-body {
+    color: #212529;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+/* my extra grayscale, sizing and letter spacing styles */
+
+.text-gray1 {
+    color: #333333;
+}
+
+.text-gray2 {
+    color: #666666;
+}
+
+/* html gray */
+.text-gray3 {
+    color: #808080;
+}
+
+.text-gray4 {
+    color: #999999;
+}
+
+.text-gray5 {
+    color: #cccccc;
+}
+
+/* html lightgray */
+.text-gray6 {
+    color: #d3d3d3;
+}
+
+.bigger {
+    font-size: 120%;
+}
+
+.ls-1 {
+    letter-spacing: 1px;
+}
+
+.ls-2 {
+    letter-spacing: 2px;
+}
+
+.lh-115 {
+    line-height: 1.15;
+}
+
+.lh-125 {
+    line-height: 1.25;
+}
+
+.lh-135 {
+    line-height: 1.35;
+}
+
+/* end text styles */
+
+/* bootstrap 4 default background colors plus my 6 grayscale shades */
+
+.bg-primary {
+    background-color: #007bff;
+}
+
+.bg-secondary {
+    background-color: #6c757d;
+}
+
+.bg-success {
+    background-color: #28a745;
+}
+
+.bg-info {
+    background-color: #17a2b8;
+}
+
+.bg-warning {
+    background-color: #ffc107;
+}
+
+.bg-danger {
+    background-color: #dc3545;
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+.bg-dark {
+    background-color: #343a40;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+/* my grayscale background shades */
+
+.bg-gray1 {
+    background-color: #333333;
+}
+
+.bg-gray2 {
+    background-color: #666666;
+}
+
+/* html gray */
+.bg-gray3 {
+    background-color: #808080;
+}
+
+.bg-gray4 {
+    background-color: #999999;
+}
+
+.bg-gray5 {
+    background-color: #cccccc;
+}
+
+/* html lightgray */
+.bg-gray6 {
+    background-color: #d3d3d3;
+}
+
+/* end background styles */
