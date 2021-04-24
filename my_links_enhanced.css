@@ -1,0 +1,54 @@
+a {
+    color: #5067ff;
+    text-decoration: none;
+    position: relative;
+    transition: 0.3s;
+}
+
+a:link {
+    color: #5067ff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:visited {
+    color: #b200e9;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:focus {
+    outline: 1px rgba(0, 0, 0, 0.15) dashed;
+    outline-offset: 0.25rem;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ff7f50;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:not([href]),
+a:not([href]):hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+a[href]::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    height: 1px;
+    content: "";
+    background-color: transparent;
+    transition: width 0.3s, left 0.3s, background-color 1s;
+}
+
+a[href]:hover::after {
+    width: 100%;
+    left: 0;
+    background-color: coral;
+    transition: width 0.3s, left 0.3s, background-color 1s;
+}
