@@ -216,7 +216,7 @@ a:hover {
 }
 
 a:active {
-    color: #e93f00;
+    color: #ff7f50;
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -246,7 +246,7 @@ a[href]:hover::after {
 }
 
 a[href]:active::after {
-    background-color: #e93f00;
+    background-color: #ff7f50;
     transition: background-color 1s;
 }
 
@@ -254,7 +254,7 @@ pre,
 code,
 kbd,
 samp {
-    font-family: Consolas, "Courier New", monospace;
+    font-family: Consolas, "Courier New", Courier, monospace;
     font-size: 1em;
 }
 
@@ -264,6 +264,9 @@ pre {
     margin-bottom: 1rem;
     overflow: auto;
     font-size: 0.875em;
+    color: rgb(57, 58, 52);
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(221, 221, 221);
 }
 
 pre code {
@@ -274,7 +277,7 @@ pre code {
 
 code {
     font-size: 0.875em;
-    color: #d63384;
+    color: rgb(57, 58, 52);
     word-wrap: break-word;
 }
 
@@ -465,6 +468,14 @@ template {
 
 [hidden] {
     display: none !important;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.m-0 {
+    margin: 0;
 }
 
 .main-container {
