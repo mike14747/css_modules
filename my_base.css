@@ -187,7 +187,6 @@ sup {
 a {
     color: #5067ff;
     text-decoration: none;
-    position: relative;
     transition: 0.3s;
 }
 
@@ -211,14 +210,15 @@ a:focus {
 
 a:hover {
     color: #ff7f50;
-    text-decoration: none;
+    /* text-decoration: none; */
+    text-decoration: underline;
     transition: color 0.3s;
 }
 
 a:active {
     color: #ff7f50;
-    text-decoration: none;
-    transition: color 0.3s;
+    /* text-decoration: none; */
+    text-decoration: underline;
 }
 
 a:not([href]),
@@ -227,7 +227,9 @@ a:not([href]):hover {
     text-decoration: none;
 }
 
-a[href]::after {
+/* the following is the animated underline effect... disabled by default */
+/* if you enable it, change the above "a:hover" and "a:active" to "text-decoration: none;" */
+/* a[href]::after {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -241,14 +243,14 @@ a[href]::after {
 a[href]:hover::after {
     width: 100%;
     left: 0;
-    background-color: coral;
+    background-color: #ff7f50;
     transition: width 0.3s, left 0.3s, background-color 1s;
 }
 
 a[href]:active::after {
     background-color: #ff7f50;
     transition: background-color 1s;
-}
+} */
 
 pre,
 code,
