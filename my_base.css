@@ -218,8 +218,15 @@ a:focus {
 
 a:hover {
     color: #ff7f50;
+    /* text-decoration: none; */
     text-decoration: underline;
     transition: color 0.3s;
+}
+
+a:active {
+    color: #ff7f50;
+    /* text-decoration: none; */
+    text-decoration: underline;
 }
 
 a:not([href]),
@@ -228,11 +235,36 @@ a:not([href]):hover {
     text-decoration: none;
 }
 
+/* the following is the animated underline effect... disabled by default */
+/* if you enable it, change the above "a:hover" and "a:active" to "text-decoration: none;" */
+/* a[href]::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    height: 1px;
+    content: "";
+    background-color: transparent;
+    transition: width 0.3s, left 0.3s, background-color 1s;
+}
+
+a[href]:hover::after {
+    width: 100%;
+    left: 0;
+    background-color: #ff7f50;
+    transition: width 0.3s, left 0.3s, background-color 1s;
+}
+
+a[href]:active::after {
+    background-color: #ff7f50;
+    transition: background-color 1s;
+} */
+
 pre,
 code,
 kbd,
 samp {
-    font-family: Consolas, "Courier New", monospace;
+    font-family: Consolas, "Courier New", Courier, monospace;
     font-size: 1em;
 }
 
@@ -242,6 +274,9 @@ pre {
     margin-bottom: 1rem;
     overflow: auto;
     font-size: 0.875em;
+    color: rgb(57, 58, 52);
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(221, 221, 221);
 }
 
 pre code {
@@ -252,7 +287,7 @@ pre code {
 
 code {
     font-size: 0.875em;
-    color: #d63384;
+    color: rgb(57, 58, 52);
     word-wrap: break-word;
 }
 
@@ -443,6 +478,14 @@ template {
 
 [hidden] {
     display: none !important;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.m-0 {
+    margin: 0;
 }
 
 .main-container {
