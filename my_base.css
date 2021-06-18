@@ -1,3 +1,11 @@
+:root {
+    --theme-color-1: rgb(255, 127, 80, 1);
+    --theme-color-2: rgba(0, 128, 0, 1);
+    --link-color: #5067ff;
+    --link-color-hover: #ff7f50;
+    --link-color-visited: #b200e9;
+}
+
 *,
 *::before,
 *::after {
