@@ -76,26 +76,32 @@ h6 {
 
 h1 {
     font-size: 2.5rem;
+    font-size: clamp(2rem, 1.5vw + 1.25rem, 3rem);
 }
 
 h2 {
     font-size: 2rem;
+    font-size: clamp(1.6rem, 1.2vw + 1rem, 2.4rem);
 }
 
 h3 {
     font-size: 1.75rem;
+    font-size: clamp(1.4rem, 1vw + 0.9rem, 2.1rem);
 }
 
 h4 {
     font-size: 1.5rem;
+    font-size: clamp(1.2rem, 0.85vw + 0.8rem, 1.8rem);
 }
 
 h5 {
     font-size: 1.25rem;
+    font-size: clamp(1.1rem, 0.7vw + 0.7rem, 1.50rem);
 }
 
 h6 {
     font-size: 1rem;
+    font-size: clamp(1rem, 0.55vw + 0.55rem, 1.20rem);
 }
 
 p {
@@ -194,18 +200,22 @@ sup {
 
 a {
     color: #5067ff;
+    color: var(--link-color);
     text-decoration: none;
     transition: 0.3s;
+    /* position: relative; */
 }
 
 a:link {
     color: #5067ff;
+    color: var(--link-color);
     text-decoration: none;
     transition: color 0.3s;
 }
 
 a:visited {
     color: #b200e9;
+    color: var(--link-color-visited);
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -218,6 +228,7 @@ a:focus {
 
 a:hover {
     color: #ff7f50;
+    color: var(--link-color-hover);
     /* text-decoration: none; */
     text-decoration: underline;
     transition: color 0.3s;
@@ -225,6 +236,7 @@ a:hover {
 
 a:active {
     color: #ff7f50;
+    color: var(--link-color-hover);
     /* text-decoration: none; */
     text-decoration: underline;
 }
@@ -236,7 +248,7 @@ a:not([href]):hover {
 }
 
 /* the following is the animated underline effect... disabled by default */
-/* if you enable it, change the above "a:hover" and "a:active" to "text-decoration: none;" */
+/* if you enable it, change the above "a:hover" and "a:active" to "text-decoration: none;" and "a" to "position: relative;" */
 /* a[href]::after {
     position: absolute;
     bottom: 0;
@@ -252,11 +264,13 @@ a[href]:hover::after {
     width: 100%;
     left: 0;
     background-color: #ff7f50;
+    background-color: var(--link-color-hover);
     transition: width 0.3s, left 0.3s, background-color 1s;
 }
 
 a[href]:active::after {
     background-color: #ff7f50;
+    background-color: var(--link-color-hover);
     transition: background-color 1s;
 } */
 
