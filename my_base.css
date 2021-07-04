@@ -198,10 +198,6 @@ sup {
     top: -0.5em;
 }
 
-.link {
-    position: relative;
-}
-
 a {
     color: #5067ff;
     color: var(--link-color);
@@ -251,7 +247,7 @@ a:not([href]):hover {
 }
 
 /* the following is the animated underline effect... disabled by default */
-/* if you enable it, change the above "a:hover" and "a:active" to "text-decoration: none;" and use the ".link" class in <a> tags */
+/* if you enable it, change the above "a:hover" and "a:active" to "text-decoration: none;" and use the ".relative" class in <a> tags */
 
 /* a[href]::after {
     position: absolute;
@@ -504,6 +500,34 @@ template {
 
 .m-0 {
     margin: 0;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.static {
+    position: static;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.sticky {
+    position: sticky;
 }
 
 .main-container {
