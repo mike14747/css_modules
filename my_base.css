@@ -540,7 +540,7 @@ template {
     position: sticky;
 }
 
-.pageHeading {
+.page-heading {
     color: rgba(0, 0, 0, 0.75);
     text-align: center;
     margin: 0rem 0 1rem 0;
@@ -548,8 +548,8 @@ template {
 
 /* use with the <main> element on pages */
 .main-container {
-    /* enable flex: 1 1 auto; on the next line for full or semi-full height websites */
-    /* flex: 1 1 auto; */
+    /* enable flex: 1; on the next line for full or semi-full height websites */
+    /* flex: 1; */
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -585,7 +585,7 @@ template {
         width: calc(100% - 2rem);
     }
 
-    .pageHeading {
+    .page-heading {
         margin-top: 0.5rem;
     }
 }
