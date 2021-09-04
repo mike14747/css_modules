@@ -542,12 +542,6 @@ template {
     position: sticky;
 }
 
-.page-heading {
-    color: rgba(0, 0, 0, 0.75);
-    text-align: center;
-    margin: 0rem 0 1rem 0;
-}
-
 /* use with the <main> element on pages */
 .main-container {
     /* enable flex: 1; on the next line for full or semi-full height websites */
@@ -575,21 +569,9 @@ template {
 }
 
 @media (min-width: 480px) {
-    .main-container,
-    .container {
-        width: calc(100% - 1rem);
-    }
 }
 
 @media (min-width: 768px) {
-    .main-container,
-    .container {
-        width: calc(100% - 2rem);
-    }
-
-    .page-heading {
-        margin-top: 0.5rem;
-    }
 }
 
 @media (min-width: 1024px) {
