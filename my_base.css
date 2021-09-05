@@ -5,18 +5,22 @@
     --link-color-hover: #ff7f50;
     --link-color-visited: #b200e9;
 
+    --mg-black: #000000; /* html black */
+    --mg-blue: #214fc6;
     --mg-coral: #ff7f50; /* html coral */
-    --mg-blue-1: #0247fe;
-    --mg-blue-2: #024dbc;
-    --mg-blue-3: #214fc6;
     --mg-green: #228B22; /* html forest green */
+    --mg-gray: #808080; /* html gray */
     --mg-gray-1: #f5f5f5; /* html whitesmoke */
     --mg-gray-2: #d3d3d3; /* html lightgray */
     --mg-gray-3: #c0c0c0; /* html silver */
     --mg-gray-4: #a9a9a9; /* html darkgray... it's a bug that its lighter than regular gray */
     --mg-gray-5: #808080; /* html gray */
     --mg-gray-6: #585858;
-    --mg-gray-7: #303030;
+    --mg-gray-7: #232323;
+    --mg-orange: #ff7518; /* html pumpkin */
+    --mg-red: #dc143c; /* html crimson */
+    --mg-red-dark: #b22222; /* html firebrick */
+    --mg-white: #ffffff; /* html white */
 }
 
 *,
