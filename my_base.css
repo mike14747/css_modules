@@ -1,8 +1,13 @@
 :root {
+    /* start theme colors specific to this app */
+
     --theme-color-1: #8fbc8f;
     --theme-color-2: #8cbed6;
     --theme-color-3: #fdd5b1;
 
+    /* end theme colors specific to this app */
+
+    --mg-beige: #f5f5dc;
     --mg-black: #000000; /* html black */
     --mg-blue: #214fc6;
     --mg-cream: #fffdd0;
@@ -289,16 +294,50 @@ a:not([href]):hover {
 a[href]:hover::after {
     width: 100%;
     left: 0;
-    background-color: #ff7f50;
     background-color: var(--mg-orange);
     transition: width 0.3s, left 0.3s, background-color 1s;
 }
 
 a[href]:active::after {
-    background-color: #ff7f50;
     background-color: var(--mg-orange);
     transition: background-color 1s;
 } */
+
+/* you could alternatively only use the .link pseudo-elements on select links and not all of them by default by applying the .link class to just those links */
+
+/* .link {
+    position: relative;
+    padding-top: 0.25rem;
+    display: inline-block;
+    transition: 0.3s;
+    color: var(--mg-blue);
+}
+
+.link::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    height: 1px;
+    content: '';
+    background-color: transparent;
+    transition: width 0.3s, left 0.3s, background-color 1s;
+}
+
+.link:hover {
+    color: var(--mg-orange);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.link:hover::after {
+    width: 100%;
+    left: 0;
+    background-color: var(--mg-orange);
+    transition: width 0.3s, left 0.3s, background-color 1s;
+} */
+
+/* end link classes */
 
 pre,
 code,
@@ -565,7 +604,7 @@ template {
     margin-left: auto;
     margin-right: auto;
     max-width: 1334px;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #ffffff;
     padding: 1rem;
 }
 
