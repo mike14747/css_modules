@@ -11,7 +11,6 @@
     --container-max-width: 1334px;
 
     --mg-beige: #f5f5dc;
-    --mg-black: #000000; /* html black */
     --mg-blue: #214fc6;
     --mg-cream: #fffdd0;
     --mg-dark: #232323;
@@ -24,12 +23,12 @@
     --mg-gray-5: #808080; /* html gray */
     --mg-gray-6: #585858;
     --mg-gray-7: #232323;
+    --mg-light: #ffffff;
     --mg-orange: #ff7518; /* html pumpkin */
     --mg-orange-soft: #fcd581;
     --mg-purple: #6f42c1;
     --mg-red: #dc143c; /* html crimson */
     --mg-red-dark: #b22222; /* html firebrick */
-    --mg-white: #ffffff; /* html white */
     --mg-yellow: #fff44f; /* html lemon */
     --mg-yellow-pale: #ffffd5;
 }
@@ -61,7 +60,7 @@ body {
     height: 100%;
     line-height: 1.5;
     color: var(--mg-dark);
-    background-color: var(--mg-white);
+    background-color: #ffffff;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -381,7 +380,7 @@ a > code {
 kbd {
     padding: 0.2rem 0.4rem;
     font-size: 0.875em;
-    color: var(--mg-white);
+    color: #ffffff;
     background-color: var(--mg-dark);
     border-radius: 0.2rem;
 }
@@ -678,7 +677,7 @@ td.text-right {
     max-width: var(--container-max-width);
     margin-left: auto;
     margin-right: auto;
-    background-color: var(--mg-white);
+    background-color: #ffffff;
     padding: 1rem;
 }
 
