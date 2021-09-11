@@ -61,7 +61,7 @@ body {
     height: 100%;
     line-height: 1.5;
     color: var(--mg-dark);
-    background-color: #ffffff;
+    background-color: var(--mg-white);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -204,7 +204,7 @@ blockquote {
 .blockquote-footer {
     display: block;
     font-size: 80%;
-    color: #6c757d;
+    color: var(--mg-gray-4);
     margin-top: 1.5rem;
 }
 
@@ -257,7 +257,7 @@ a:visited {
 }
 
 a:focus {
-    outline: 1px rgba(0, 0, 0, 0.15) dashed;
+    outline: 1px var(--mg-gray-2) dashed;
     outline-offset: 0.25rem;
     transition: 0.3s;
 }
@@ -357,9 +357,9 @@ pre {
     margin-bottom: 1rem;
     overflow: auto;
     font-size: 0.875em;
-    color: rgb(57, 58, 52);
-    background-color: rgb(238, 238, 238);
-    border: 1px solid rgb(221, 221, 221);
+    color: var(--mg-gray-4);
+    background-color: var(--mg-gray-1);
+    border: 1px solid var(--mg-gray-2);
 }
 
 pre code {
@@ -370,7 +370,7 @@ pre code {
 
 code {
     font-size: 0.875em;
-    color: rgb(57, 58, 52);
+    color: var(--mg-gray-4);
     word-wrap: break-word;
 }
 
@@ -381,8 +381,8 @@ a > code {
 kbd {
     padding: 0.2rem 0.4rem;
     font-size: 0.875em;
-    color: #fff;
-    background-color: #212529;
+    color: var(--mg-white);
+    background-color: var(--mg-dark);
     border-radius: 0.2rem;
 }
 
@@ -413,7 +413,7 @@ table {
 caption {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    color: #6c757d;
+    color: var(--mg-gray-4);
     text-align: left;
     caption-side: bottom;
 }
@@ -500,13 +500,13 @@ textarea {
 fieldset {
     min-width: 0;
     padding: 0.5rem;
-    border: 1px rgba(0, 0, 0, 0.25) solid;
+    border: 1px var(--mg-gray-3) solid;
     margin: 1rem auto;
 }
 
 legend {
-    background-color: #f0f0f0;
-    border: 1px rgba(0, 0, 0, 0.25) solid;
+    background-color: var(--mg-gray-1);
+    border: 1px var(--mg-gray-3) solid;
     padding: 0.25rem 1rem;
     margin-bottom: 1rem;
     font-size: clamp(1rem, 0.55vw + 0.55rem, 1.2rem);
@@ -517,7 +517,7 @@ legend {
 
 mark {
     padding: 0.2em;
-    background-color: #fcf8e3;
+    background-color: var(--mg-yellow-pale);
 }
 
 progress {
@@ -600,6 +600,75 @@ template {
     position: sticky;
 }
 
+/* start my table classes */
+
+.table-wrapper {
+    margin: 0 auto 1rem auto;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.table-wrapper:focus {
+    outline: 1px var(--mg-gray-2) dashed;
+    outline-offset: 0.25rem;
+    transition: 0.3s;
+}
+
+.table {
+    min-width: 50%;
+    margin: 0 auto 1rem auto;
+    color: var(--mg-dark);
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid var(--mg-gray-4);
+    text-align: center;
+}
+
+th.text-left,
+td.text-left {
+    text-align: left;
+}
+
+th.text-right,
+td.text-right {
+    text-align: right;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid var(--mg-gray-4);
+}
+
+.table tbody + tbody {
+    border-top: 1px solid var(--mg-gray-4);
+}
+
+.table-bordered {
+    border: 1px solid var(--mg-gray-4);
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid var(--mg-gray-4);
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+    border-bottom-width: 1px;
+}
+
+.table-hover tbody tr:hover {
+    color: var(--mg-dark);
+    background-color: var(--mg-gray-1);
+}
+
+/* end my table classes */
+
 /* use with the <main> element on pages */
 .main-container {
     /* enable flex: 1; on the next line for full or semi-full height websites */
@@ -609,7 +678,7 @@ template {
     max-width: var(--container-max-width);
     margin-left: auto;
     margin-right: auto;
-    background-color: #ffffff;
+    background-color: var(--mg-white);
     padding: 1rem;
 }
 
