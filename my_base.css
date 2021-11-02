@@ -41,6 +41,11 @@
     padding: 0;
 }
 
+/* ::selection {
+    background-color: var(--mg-dark);
+    color: #ffffff;
+} */
+
 /* for semi-full height websites with next.js use #__next and with react use #root */
 /* #__next,
 #root {
