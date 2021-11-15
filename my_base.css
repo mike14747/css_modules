@@ -608,6 +608,10 @@ template {
     font-size: larger;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 /* use with the <main> element on pages */
 .main-container {
     /* enable flex: 1; on the next line for full or semi-full height websites */
