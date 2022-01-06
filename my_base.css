@@ -31,6 +31,19 @@
     --mg-red-dark: #b22222; /* html firebrick */
     --mg-yellow: #fff44f; /* html lemon */
     --mg-yellow-pale: #ffffd5;
+
+    /* start font sizes */
+
+    --step--2: clamp(0.69rem, 0.65rem + 0.15vw, 0.83rem);
+    --step--1: clamp(0.83rem, 0.78rem + 0.19vw, 1rem);
+    --step-0: clamp(1rem, 0.93rem + 0.22vw, 1.2rem);
+    --step-1: clamp(1.2rem, 1.12rem + 0.27vw, 1.44rem);
+    --step-2: clamp(1.44rem, 1.34rem + 0.32vw, 1.73rem);
+    --step-3: clamp(1.73rem, 1.61rem + 0.38vw, 2.07rem);
+    --step-4: clamp(2.07rem, 1.94rem + 0.46vw, 2.49rem);
+    --step-5: clamp(2.49rem, 2.32rem + 0.55vw, 2.99rem);
+
+    /* end font sizes */
 }
 
 *,
@@ -118,7 +131,7 @@ h6 {
     line-height: 1.25;
 }
 
-h1 {
+/* h1 {
     font-size: 2.5rem;
     font-size: clamp(2rem, 1.5vw + 1.25rem, 3rem);
 }
@@ -146,9 +159,41 @@ h5 {
 h6 {
     font-size: 1rem;
     font-size: clamp(1rem, 0.55vw + 0.55rem, 1.2rem);
+} */
+
+h1 {
+    font-size: 2.488rem;
+    font-size: var(--step-5);
+}
+
+h2 {
+    font-size: 2.074rem;
+    font-size: var(--step-4);
+}
+
+h3 {
+    font-size: 1.728rem;
+    font-size: var(--step-3);
+}
+
+h4 {
+    font-size: 1.44rem;
+    font-size: var(--step-2);
+}
+
+h5 {
+    font-size: 1.2rem;
+    font-size: var(--step-1);
+}
+
+h6 {
+    font-size: 1rem;
+    font-size: var(--step-0);
 }
 
 p {
+    font-size: 1rem;
+    font-size: var(--step-0);
     margin-top: 0;
     margin-bottom: 1rem;
 }
@@ -203,12 +248,14 @@ blockquote {
     margin: 1.5rem 0;
     border-left: 8px solid var(--mg-orange);
     background-color: var(--mg-cream);
-    font-size: 1.25rem;
+    font-size: 1.2rem;
+    font-size: var(--step-1);
 }
 
 .blockquote-footer {
     display: block;
-    font-size: 80%;
+    font-size: 83.3%;
+    font-size: var(--step--1);
     color: var(--mg-gray-4);
     margin-top: 1.5rem;
 }
@@ -223,7 +270,13 @@ strong {
 }
 
 small {
-    font-size: 0.875em;
+    font-size: .833rem;
+    font-size: var(--step--1);
+}
+
+x-small {
+    font-size: .694rem;
+    font-size: var(--step--2);
 }
 
 sub,
@@ -361,7 +414,8 @@ pre {
     margin-top: 0;
     margin-bottom: 1rem;
     overflow: auto;
-    font-size: 0.875em;
+    font-size: 0.833em;
+    font-size: var(--step--1);
     color: var(--mg-gray-4);
     background-color: var(--mg-gray-1);
     border: 1px solid var(--mg-gray-2);
@@ -374,7 +428,8 @@ pre code {
 }
 
 code {
-    font-size: 0.875em;
+    font-size: 0.833em;
+    font-size: var(--step--1);
     color: var(--mg-gray-4);
     word-wrap: break-word;
 }
@@ -385,7 +440,8 @@ a > code {
 
 kbd {
     padding: 0.2rem 0.4rem;
-    font-size: 0.875em;
+    font-size: 0.833em;
+    font-size: var(--step--1);
     color: #ffffff;
     background-color: var(--mg-dark);
     border-radius: 0.2rem;
@@ -514,7 +570,8 @@ legend {
     border: 1px var(--mg-gray-3) solid;
     padding: 0.25rem 1rem;
     margin-bottom: 1rem;
-    font-size: clamp(1rem, 0.55vw + 0.55rem, 1.2rem);
+    font-size: 1rem;
+    font-size: var(--step-0);
     line-height: inherit;
     color: inherit;
     white-space: normal;
@@ -656,7 +713,6 @@ template {
 /* add custom css for site-wide use here */
 
 h2.page-heading {
-    font-size: clamp(1.6rem, 1.2vw + 1rem, 2.4rem);
     text-align: left;
     border-bottom: 2px var(--mg-gray-2) solid;
     padding-bottom: 1rem;
